@@ -142,4 +142,4 @@ Postman kolleksiyasına testlər əlavə olunub. **Test nəticələri** Postman-
 -   `base_url` dəyişəni fərdi serverinizə uyğun tənzimlənə bilər.
     
 
-🔗 Daha ətraflı məlumat üçün [Postman Kolleksiyası](https://orange-astronaut-444336.postman.co/workspace/HEWART-LLC~f050d02c-bd2b-4de7-8df8-55ce2cc3806d/collection/20543739-c03f6e49-a9ee-4b9c-927b-692a99abdb39?action=share&source=collection_link&creator=20543739) linkinə daxil olun.
+🔗 Daha ətraflı məlumat üçün [Postman Kolleksiyası](./api/postman/Journey%20Map%20API.postman_collection.json) linkinə daxil olun.
