@@ -30,12 +30,12 @@
 					"apikey": [
 						{
 							"key": "value",
-							"value": "{{API_Key}}",
+							"value": "{{api_key}}",
 							"type": "string"
 						},
 						{
 							"key": "key",
-							"value": "API-Key",
+							"value": "api-key",
 							"type": "string"
 						}
 					]
@@ -86,12 +86,12 @@
 					"apikey": [
 						{
 							"key": "value",
-							"value": "{{API_Key}}",
+							"value": "{{api_key}}",
 							"type": "string"
 						},
 						{
 							"key": "key",
-							"value": "API-Key",
+							"value": "api-key",
 							"type": "string"
 						}
 					]
@@ -143,12 +143,12 @@
 					"apikey": [
 						{
 							"key": "value",
-							"value": "{{API_Key}}",
+							"value": "{{api_key}}",
 							"type": "string"
 						},
 						{
 							"key": "key",
-							"value": "API-Key",
+							"value": "api-key",
 							"type": "string"
 						}
 					]
@@ -199,12 +199,12 @@
 					"apikey": [
 						{
 							"key": "value",
-							"value": "{{API_Key}}",
+							"value": "{{api_key}}",
 							"type": "string"
 						},
 						{
 							"key": "key",
-							"value": "API-Key",
+							"value": "api-key",
 							"type": "string"
 						}
 					]
@@ -260,7 +260,7 @@
 			"value": "https://journeymap.hewart.az/api"
 		},
 		{
-			"key": "API_Key",
+			"key": "api_key",
 			"value": "1234567890abcdef"
 		},
 		{

@@ -34,7 +34,7 @@ Postman kolleksiyası aşağıdakı dəyişənlərdən istifadə edir:
 
 -   **`base_url`** – API əsas URL (standart: `https://journeymap.hewart.az/api`)
     
--   **`API_Key`** – API-yə giriş açarı
+-   **`api_key`** – API-yə giriş açarı
     
 -   **`image`** – Şəkil məlumatı üçün baza64 kodlaşdırılmış dəyər
     
@@ -67,7 +67,7 @@ Postman kolleksiyası aşağıdakı dəyişənlərdən istifadə edir:
 
 ```
 
--   **Headers:** `API-Key: {{API_Key}}`
+-   **Headers:** `api-key: {{api_key}}`
     
 -   **Response:** `200 OK`
     
@@ -76,7 +76,7 @@ Postman kolleksiyası aşağıdakı dəyişənlərdən istifadə edir:
 
 -   **Endpoint:** `GET {{base_url}}/read.php?lat=41.123456&lng=45.987654`
     
--   **Headers:** `API-Key: {{API_Key}}`
+-   **Headers:** `api-key: {{api_key}}`
     
 -   **Response:** JSON formatında saxlanılmış məlumat
     
@@ -107,7 +107,7 @@ Postman kolleksiyası aşağıdakı dəyişənlərdən istifadə edir:
 
 ```
 
--   **Headers:** `API-Key: {{API_Key}}`
+-   **Headers:** `api-key: {{api_key}}`
     
 -   **Response:** `200 OK`
     
@@ -126,7 +126,7 @@ Postman kolleksiyası aşağıdakı dəyişənlərdən istifadə edir:
 
 ```
 
--   **Headers:** `API-Key: {{API_Key}}`
+-   **Headers:** `api-key: {{api_key}}`
     
 -   **Response:** `200 OK`
     
@@ -137,7 +137,7 @@ Postman kolleksiyasına testlər əlavə olunub. **Test nəticələri** Postman-
 
 ## 📢 Əlavə Qeydlər
 
--   API istifadə etmək üçün `API-Key` daxil edilməlidir.
+-   API istifadə etmək üçün `api-key` daxil edilməlidir.
     
 -   `base_url` dəyişəni fərdi serverinizə uyğun tənzimlənə bilər.
     

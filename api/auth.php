@@ -6,7 +6,7 @@ $valid_api_keys = [
 
 // HTTP Header-dən API açarını oxuyuruq
 $headers = getallheaders();
-if (!isset($headers['API-Key']) || !in_array($headers['API-Key'], $valid_api_keys)) {
+if (!isset($headers['api-key']) || !in_array($headers['api-key'], $valid_api_keys)) {
     http_response_code(403);
     echo json_encode(["error" => "Unauthorized access"]);
     exit;
